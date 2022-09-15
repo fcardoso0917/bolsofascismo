@@ -1,4 +1,4 @@
-## bolsofascismo
+# bolsofascismo
 
 # Projeto: Elementos fascistas no discurso da família Bolsonaro
 
