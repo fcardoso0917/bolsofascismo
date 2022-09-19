@@ -97,8 +97,7 @@ body section,
 body main{
 	padding-top: 20px;
 }
-/*FIM ESTILOS PADRÕES*/
-
+/*FIM ESTILOS GERAIS*/
 
 /*CABEÇALHO*/
 #cabecalho{
@@ -152,134 +151,6 @@ body main{
 }
 /*FIM CABEÇALHO*/
 
-
-
-/*BANNER*/
-#banner{
-	background-color: #e7635d;
-	background-size: cover;
-	padding-top: 0px;
-}
-#banner .container{
-	height: 100vh;
-}
-
-#slogan *{
-	color: #585858;
-}
-#slogan h1{	
-	overflow: hidden;
-    text-indent: -999999999999px;
-}
-#slogan h2{
-	text-align: center;
-	font-size:50px;
-}
-/*FIM BANNER*/
-
-
-
-/*SLIDER*/
-.estilo-slide h4{
-	font-size: 40px;
-	color: white;
-}
-#slider{
-	height: calc(100vh - 40px);
-	width: 100%;
-	padding-top: 0px;
-	position: relative;
-}
-
-#slider .seta .fa{
-	color: white;
-}
-
-#slider .seta{
-    position: absolute;
-	font-size: 44px;
-    background: none;
-    border: none;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 5;
-}
-
-#slider .seta.esquerda{
-	left: 0px;
-}
-#slider .seta.direita{
-	right: 0px;
-}
-
-#slider .bullets{
-	position: absolute;
-	bottom: 0px;
-	left: 50%;
-    transform: translateX(-50%);
-    z-index: 5;
-}
-
-.slide-servicos{
-	height: 100%;
-}
-.slide{
-	height: 100%;
-    width: 100%;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-
-    transition: all 1s ease;
-    opacity: 0;
-}
-
-.slide h3{
-	color: white;
-	font-size: 32px;
-}
-
-.slide video,
-.slide img{
-	position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-   	object-fit: cover;
-    z-index: -1;
-}
-
-.slide.ativo{
-	opacity: 1;
-	display: flex;
-	z-index: 1;
-}
-
-.bullet{
-	height: 15px;
-    width: 15px;
-    border-radius: 50%;
-    border: none;
-    background: #e6e6e6;
-    margin: 0 10px;
-}
-
-#slogan *{
-	color: #585858;
-}
-#slogan h1{
-	overflow: hidden;
-    text-indent: -999999999999px;
-}
-#slogan h2{
-	text-align: left;
-	max-width: 480px;
-}
-/*FIM SLIDER*/
-
-
-
 /*MISSÃO*/
 #missao{
 	background-color: #e7635d;
@@ -303,37 +174,6 @@ body main{
 	text-align: center;
 }
 /*FIM MISSÃO*/
-
-
-/*QUEM SOMOS*/
-.perfil{
-	padding: 20px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-.perfil .descricao{
-	text-align: center;
-}
-.perfil img{
-	height: 200px;
-} 
-
-.colaboradoras h3{
-	margin-bottom: 0px;
-	font-size: 29px;
-}
-
-.colaboradoras p{
-	margin-top: 0px;
-}
-
-#quemsomos{
-	background-color: rgba(241, 233, 233, 0.61);
-}
-
-/*FIM QUEM SOMOS*/
-
 
 /*CONTATO*/
 
@@ -388,34 +228,6 @@ textarea {
 }
 
 /*FIM CONTATO*/
-
-
-/*PARCEIROS*/
-.parceiros .linha {
-	display: flex;
-	justify-content: center;
-}
-.parceiros ul {
-	display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 50%;
-    justify-content: center;
-}
-
-.parceiros img{
-	padding: 20px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-#parceiros{
-	background-color: rgba(241, 233, 233, 0.61);
-}
-/*FIM PARCEIROS*/
-
 
 /*RODAPÉ*/
 footer#rodape{
@@ -513,8 +325,6 @@ ul.rodape-links li a:hover {
 }
 /*FIM TABLET*/
 
-
-
 /*SMARTPHONE*/
 @media (max-width: 480px){
 	.container{
@@ -555,7 +365,3 @@ ul.rodape-links li a:hover {
 
 }
 /*FIM SMARTPHONE*/
-
-
-
-
