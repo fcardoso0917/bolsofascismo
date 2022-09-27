@@ -26,7 +26,7 @@ body {
 		align-items: center;
 	}
 img.logo{
-	width: 150px;
+	width: 350px;
 }
 
 ul.linha{
@@ -115,7 +115,7 @@ body main{
 }
 
 #cabecalho a{
-	color: white;
+	color: black;
 	font-size: 20px;
 }
 
@@ -129,7 +129,7 @@ body main{
 }
 
 #cabecalho .fa, #navegacao-midias-sociais-rodape .fa{
-	color: white;
+	color: black;
 }
 
 .menu-horizontal ul{
@@ -151,6 +151,29 @@ body main{
 }
 /*FIM CABEÇALHO*/
 
+/*BANNER*/
+#banner{
+	background-image: url(../img/banner1.png);
+	background-size: cover;
+	padding-top: 0px;
+}
+#banner .container{
+	height: 100vh;
+}
+
+#slogan *{
+	color: #d82820;
+}
+#slogan h1{	
+	overflow: hidden;
+    text-indent: -999999999999px;
+}
+#slogan h2{
+	text-align: center;
+	font-size:70px;
+}
+/*FIM BANNER*/
+
 /*MISSÃO*/
 #missao{
 	background-color: #e7635d;
@@ -161,29 +184,24 @@ body main{
 	height: 100vh;
 }
 
-#missao h4{
-	color: #fff;
-	font-size: 30px;
-
-}
 #missao p{
 	color: #fff;
-	font-size: 15px;	
+	font-size: 55px;	
 }
 #conteudo p{
 	text-align: center;
 }
 /*FIM MISSÃO*/
 
-/*CONTATO*/
+/*CONTEXTO*/
 
-#contato h2{
+#contexto h2{
 	color: #e7635d;
 	font-size: 40px;
 	padding-left: 85px;
 }
 
-#form-contato.linha {
+#form-contexto.linha {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -206,7 +224,7 @@ textarea {
    border-radius: 5px;
 }
 
-.submit-contato {
+.submit-contexto {
 	margin-left: auto;
     display: block;
     color: white;
@@ -218,16 +236,42 @@ textarea {
     border-radius: 2px;
 }
 
-#contato{
+#contexto{
 	background-image: url(../img/banner3.jpg);
 	background-size: cover;
 	padding-top: 0px;
 }
-#contato .container{
+#contexto .container{
 	height: 100vh;
 }
+/*FIM CONTEXTO*/
 
-/*FIM CONTATO*/
+/*HIPOTESE*/
+#hipotese{
+	background-color: #e7635d;
+	background-size: cover;
+	padding-top: 0px;
+}
+#hipotese .container{
+	height: 75vh;
+}
+
+#hipotese p{
+	color: #fff;
+	font-size: 55px;	
+}
+#hipotese p{
+	text-align: center;
+}
+/*FIM HIPOTESE*/
+
+/*TERMOMETRO*/
+
+#termometro .conteudo li img {
+	justify-content: center;
+}
+
+/*FIM TERMOMETRO*/
 
 /*RODAPÉ*/
 footer#rodape{
@@ -236,8 +280,8 @@ footer#rodape{
 }
 
 ul.rodape-links li a {
-	color: white;
-	padding: 10px;
+	color: black;
+	padding: 15px;
 }
 
 ul.rodape-links li a:hover {
